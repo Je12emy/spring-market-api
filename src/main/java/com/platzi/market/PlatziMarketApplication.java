@@ -3,7 +3,7 @@ package com.platzi.market;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = { "com.platzi.market.persistance.mapper.ProductMapper", })
 public class PlatziMarketApplication {
 
 	public static void main(String[] args) {
