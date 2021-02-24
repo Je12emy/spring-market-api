@@ -8,6 +8,7 @@ import javax.persistence.Embeddable;
 // Se puede embeeder en otra clase
 @Embeddable
 public class ComprasProductoPK implements Serializable {
+
     @Column(name = "id_compra")
     private Integer idCompra;
     @Column(name = "id_producto")
